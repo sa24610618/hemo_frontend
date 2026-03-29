@@ -81,6 +81,20 @@ export default function Navbar() {
               >
                 Request
               </Link>
+              <Link
+                onClick={ToggleAction}
+                className="nav-link active"
+                to="/register"
+              >
+                Register
+              </Link>
+              <Link
+                onClick={ToggleAction}
+                className="nav-link active"
+                to="/login"
+              >
+                Login
+              </Link>
             </div>
           </div>
         </div>

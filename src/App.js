@@ -8,6 +8,8 @@ import { ScrollToTop } from "./components/scrolltoTop";
 import { useEffect, useState } from "react";
 import DonateNew from "./Main/DonatePage";
 import RequestNew from "./Main/RequestPage";
+import Register from "./Main/Register";
+import Login from "./Main/Login";
 import "./App.css";
 // import { donation_js } from "./project_scripts/donation_db";
 export default function App() {
@@ -50,6 +52,8 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/donate" element={<DonateNew />} />
         <Route path="/request" element={<RequestNew />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<AdminLogin />} />
       </Routes>
     </div>
